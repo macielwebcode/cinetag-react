@@ -26,12 +26,12 @@ Clicando em cada item, o usuário é direcionado para a página com detalhes do 
 
 - `Funcionalidade 1`: menu com link favoritos
 - `Funcionalidade 2`: pagina inicial com lista de itens através de uma api
-- `Funcionalidade 3`: componente postModelo para montar e exibir conteúdo da rota /about e da rota /posts
-- `Funcionalidade 4`: listar posts na página inicial utilizando o conteúdo de um arquivo json
-- `Funcionalidade 5`: rotas dinâmicas e descendentes para os posts
-- `Funcionalidade 6`: useNavigate para voltar ao inicio em caso de pagina não encontrada
-- `Funcionalidade 7`: posts recomendados na pagina do post
-- `Funcionalidade 8`: scroll ao mudar de página
+- `Funcionalidade 3`: página base para padronizar montagem de páginas
+- `Funcionalidade 4`: componentes para utilizar nas páginas/rotas
+- `Funcionalidade 5`: rotas dinâmicas e descendentes para cada item (página player carrega o conteúdo do item)
+- `Funcionalidade 6`: favoritar item (utilizando Context Api, criado FavoritosContext)
+- `Funcionalidade 7`: item favoritado é carregado na página Favoritos
+- `Funcionalidade 8`: página NotFound para paginas e parâmetros não existentes
 
 ## Deploy da Aplicação
 - ``Link do projeto online:`` https://cinetag-react-eight.vercel.app/
